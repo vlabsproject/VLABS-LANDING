@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Labs </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/Drop Leaf logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <!-- <a href="./index.html" class="logo">
+        <img src="./assets/images/logo.svg" alt="Virtual Labs logo">
+      </a> -->
+
+      <div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+
+          <select name="language" id="language">
+            <option value="en">EN</option>
+            <option value="au">AU</option>
+            <option value="ar">AR</option>
+            <option value="tu">TU</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary">Sign in</button>
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="Virtual Labs logo">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <!-- <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Movie</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Tv Show</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Web Series</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Pricing</a>
+          </li>
+
+        </ul> -->
+
+        <ul class="navbar-social-list">
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Virtual Labs</p>
+
+            <h1 class="h1 hero-title">
+              Embark on Real-World Engineering Challenges
+            </h1>
+
+            <div class="meta-wrapper">
+
+              <div class="badge-wrapper">
+                <div class="badge badge-fill">An Intiative By Vidyalankar Institute Of Technology</div>
+
+              </div>
+
+            </div>
+<a href="#play-now">
+            <button class="btn btn-primary">
+            
+              <ion-icon name="play"></ion-icon>
+              <span >Start Now</span>
+
+            </button>
+          </a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #UPCOMING
+      -->
+
+      <section class="upcoming">
+        <div class="container">
+
+          <div class="flex-wrapper">
+
+            <div class="title-wrapper">
+              <p class="section-subtitle">Electronic and Telecommunication Engineering</p>
+
+              <h2 class="h2 section-title">Subjects</h2>
+            </div>
+
+            <ul class="filter-list">
+
+              <li>
+                <button class="filter-btn">Department</button>
+              </li>
+
+              <li>
+                <button class="filter-btn">Subjects</button>
+              </li>
+
+              <li>
+                <button class="filter-btn">Labs</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="movies-list  has-scrollbar">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/computer science.png" alt="Computer Science">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">computer science</h3>
+                  </a>
+
+                  <!-- <time datetime="2022">30 Min</time> -->
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">Theory</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT137M">40 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/information technology.png"
+                      alt="information technology">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Information Technology</h3>
+                  </a>
+
+                  <!-- <time datetime="2022">2022</time> -->
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">Theory</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">126 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>NR</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/extc.png" alt="extc">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Electronic and Telecommunication</h3>
+                  </a>
+
+                  <!-- <time datetime="2022">2022</time> -->
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">Theory</div>
+                  <div class="badge badge-outline">Guided Lab</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="">N/A</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>NR</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./movie-details.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/etrx.png"
+                      alt="etrx">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Electronic</h3>
+                  </a>
+
+                  <!-- <time datetime="2022">2022</time> -->
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT107M">107 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>NR</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #TOP RATED
+      -->
+      <section class="top-rated" id="play-now">
+        <div class="container">
+    
+            <p class="section-subtitle">Department</p>
+    
+            <h2 class="h2 section-title">Electronic And Telecommunication</h2>
+    
+            <ul class="filter-list">
+    
+                <li>
+                    <button class="filter-btn">First Year</button>
+                </li>
+    
+                <li>
+                    <button class="filter-btn">Second Year</button>
+                </li>
+    
+                <li>
+                    <button class="filter-btn">Third Year</button>
+                </li>
+    
+                <li>
+                    <button class="filter-btn">Final Year</button>
+                </li>
+    
+            </ul>
+    
+            <ul class="movies-list">
+    
+                <li>
+                    <div class="movie-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/image.png" alt="IC 555">
+                        </figure>
+                        <div class="title-wrapper">
+                            <a href="#popup">
+                                <h3 class="card-title">2d GRAPH</h3>
+                            </a>
+                            <time datetime="2022">Second Year</time>
+                        </div>
+                        <div class="card-meta">
+                            <div class="badge badge-outline">Digital Logic Design</div>
+                            <a href="https://vlabsproject.github.io/vlabsneutron/" class="show-popup">
+                              <ion-icon name="play"></ion-icon>
+                          </a>
+                          
+                            <div class="duration">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <time datetime="PT122M">122 min</time>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="movie-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/Group 25.png" alt="Logic gate">
+                        </figure>
+                        <div class="title-wrapper">
+                            <a href="#popup">
+                                <h3 class="card-title">Logic Gates</h3>
+                            </a>
+                            <time datetime="2022">Second Year</time>
+                        </div>
+                        <div class="card-meta">
+                            <div class="badge badge-outline">Digital Logic Design</div>
+                            <button class="show-popup">
+                                <ion-icon name="play"></ion-icon>
+                            </button>
+                            <div class="duration">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <time datetime="PT122M">122 min</time>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="movie-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/Group 30.png" alt="Logic gate">
+                        </figure>
+                        <div class="title-wrapper">
+                            <a href="#popup">
+                                <h3 class="card-title"> MAE Antenna</h3>
+                            </a>
+                            <time datetime="2022">Third Year</time>
+                        </div>
+                        <div class="card-meta">
+                            <div class="badge badge-outline">Antenna</div>
+                            <button class="show-popup">
+                                <ion-icon name="play"></ion-icon>
+                            </button>
+                            <div class="duration">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <time datetime="PT122M">122 min</time>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="movie-card">
+                        <figure class="card-banner">
+                            <img src="./assets/images/Group 35.png" alt="Logic gate">
+                        </figure>
+                        <div class="title-wrapper">
+                            <a href="#popup">
+                                <h3 class="card-title">signal strength of Antenna</h3>
+                            </a>
+                            <time datetime="2022">Third Year</time>
+                        </div>
+                        <div class="card-meta">
+                            <div class="badge badge-outline">Antenna</div>
+                            <button class="show-popup">
+                                <ion-icon name="play"></ion-icon>
+                            </button>
+                            <div class="duration">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <time datetime="PT122M">122 min</time>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <div class="popup-container">
+                    <div class="popup-box">
+                        <h1>Ready to Play?</h1>
+                        <p>Click "Confirm" to start your adventure!</p>
+                        <button class="close-btn" id="playButton" onclick="setTimeout(()=>{window.location.href = 'https://vlabsproject.github.io/vlabsneutron/'; },200);">Confirm</button>
+
+                    
+                        <audio id="audioPlayer" src="./assets/images/button.mp3"></audio>
+                    </div>
+                </div>
+    
+            </ul>
+    
+        </div>
+    
+    </section>
+    
+
+
+
+
+
+      <!-- 
+        - #TV SERIES
+      -->
+<!-- 
+      <section class="tv-series">
+        <div class="container">
+
+          <p class="section-subtitle">Best TV Series</p>
+
+          <h2 class="h2 section-title">World Best TV Series</h2>
+
+          <ul class="movies-list">
+
+          
+
+            
+           
+          
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="cta-title">Build the Future of Learning: Shape Open-Source Virtual Lab</h2>
+
+            <p class="cta-text">
+              Join our revolution. Be a developer, researcher, student - contribute to an immersive learning platform for all.
+            </p>
+          </div>
+
+          <form action="" class="cta-form">
+            <input type="email" name="email" required placeholder="Enter your email" class="email-field">
+
+            <button type="submit" class="cta-form-btn">Get started</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+          
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Labs</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Concept</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Join Our Team</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Faq</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Vidyalankar Institute of Technology</a>. All Rights Reserved
+        </p>
+
+        <!-- <img src="./assets/images/footer-bottom-img.png" alt="Online banking companies logo" class="footer-bottom-img"> -->
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
